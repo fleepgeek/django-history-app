@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+    <div class="container">
+        <h3>Products</h3>
+        {% for product in product_list %}
+            <h4><a href="{{ product.get_absolute_url }}">{{ product.name }}</a></h4>
+        {% empty %}
+            <h3>There are no Products Yet.</h3>
+        {% endfor %}
+    </div>
+
+{% endblock content %}
+    
