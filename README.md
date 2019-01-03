@@ -6,11 +6,12 @@ The idea behind this application is to show you a how to achieve better polymorp
 
 ## Use Cases
 * History -  managing different page objects (eg product and blog post object)
-* Shopping Cart - managing different types of products (ebook, electronics and furniture objects)
+* Shopping Cart - managing different types of products (eg ebook, electronics and furniture objects)
 
 Managing these types of relationship using a ForeignKey could be more difficult and there would be need for you to manage your inheritance and migrations when new types of objects are added.
 
 ## Link to the tutorial
+Learn and understand how to build this app.
 [Watch on YouTube](https://www.youtube.com/watch?v=bEEFo75IkYU) 
 
 ## Installation

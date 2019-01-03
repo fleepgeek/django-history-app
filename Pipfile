@@ -7,7 +7,7 @@ name = "pypi"
 
 [packages]
 
-django = "*"
+django = ">=2.0.8"
 
 
 [dev-packages]
